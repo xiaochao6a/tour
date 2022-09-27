@@ -1,0 +1,60 @@
+/*userinfo界面样式表*/
+@charset "utf-8";
+
+.img{
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 100px;
+    /* border: 1px red solid; */
+}
+.block {
+    /* border: 1px rebeccapurple solid; */
+    margin-top: 25px;
+    font-weight: bold;
+    margin-left: 100px;
+    color: rgb(101, 99, 101);
+  }
+  .info-menu{
+    height:200px;
+    width: 310px;
+    /* border: 1px red solid; */
+  }
+  .info-title{
+    height: 50px;
+    color: black;
+    width: 310px;
+    text-align: center;
+  }
+  .listinfo div{
+      width: 600px;
+      height: 40px;
+      line-height: 40px;
+      padding-left: 40px;
+      margin-top: 10px;
+  }
+  .o-title{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .order{
+    margin:70px;
+    margin-left: 100px;
+  }
+  .bgcolor{
+    height: 60px;
+    background-color: aquamarine;
+  }
+  .b-title{
+    width: 300px;
+    font-size: 18px;
+    line-height: 60px;
+    padding-left: 40px;
+    color: rgb(33, 27, 27);
+  }
+  .b-user{
+    width: 300px;
+    font-size: 18px;
+    line-height: 60px;
+    padding-left: 100px;
+    color: rgb(33, 27, 27);
+  }

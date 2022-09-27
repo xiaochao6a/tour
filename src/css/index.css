@@ -1,0 +1,317 @@
+/*index界面样式表*/
+@charset "utf-8";
+
+a{
+    text-decoration: none;
+    color: rgb(139, 125, 125);
+}
+.logo{
+    height: 45px;
+    width: 150px;
+    margin-left: 40px;
+    display: inline-block;
+}
+#index-app{
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    width: 1900px;
+    margin: auto;
+}
+.h-left{
+    width: 450px;
+}
+.h-left a{
+    color:rgb(224, 222, 222);
+    font-size: 14px;
+    padding: 10px;
+}
+.h-right{
+    /* width: 210px; */
+    margin-left:10px !important;
+    /* border: 1px red solid; */
+}
+.h-right input{
+    height: 18px;
+    font-size: 13px;
+}
+.m{
+    /* border: 1px rebeccapurple solid; */
+    margin-top: 0;
+    height: 360px;
+}
+.main-box{
+    width: 1920px;
+    margin: auto;
+    display: flex;
+    /* justify-content: space-between; */
+    height: 900px;
+    /* border: 1px rebeccapurple solid; */
+}
+.main-left{
+    height: 902px;
+    width: 960px;
+    border-top: 3px #86BED8 solid;
+    border-left: 1px rgb(184, 183, 183) solid;
+    border-right: 1px rgb(184, 183, 183) solid;
+    /* border-bottom: 1px rgb(184, 183, 183) solid; */
+    margin-left: 15px;
+}
+.main-right{
+    margin-left: 404px;
+    margin-right: 20px;
+    border-top: 3px #86BED8 solid;
+    border-left: 1px rgb(184, 183, 183) solid;
+    border-right: 1px rgb(184, 183, 183) solid;
+    border-bottom: 1px rgb(184, 183, 183) solid;
+    height: 900px;
+    width: 500px;
+    /* border: 1px yellowgreen solid; */
+}
+.title-left{
+    color: #72e1ed;
+    font-size: 16px;
+    font-weight: bold;
+    height: 29px;
+    padding-left: 10px;
+    line-height: 29px;
+    background-color: #e8eef0;
+}
+.t_content{
+    border-bottom: 1px rgb(184, 183, 183) solid;
+    height: 280px;
+    width: 960px;
+    
+}
+.info{
+    margin-top: 2px;
+    height: 260px;
+    /* border: 1px red solid; */
+    list-style: none;
+    margin-right: 160px;
+}
+.info li{
+    color: rgb(91, 82, 82);
+    font-size: 14px;
+    margin: 5px;
+    width: 300px;
+   /* border: 1px royalblue solid; */
+} 
+.s-color{
+    color: yellow;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    width: 60px;
+    /* border: 1px firebrick solid; */
+    margin-left: 138px;
+}
+.t{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 260px;
+    width: 900px;
+    /* border: 1px gold solid; */
+}
+.up-area{
+    height: 340px;
+    width: 500px;
+    border-bottom: 1px rgb(184, 183, 183) solid;
+}
+.title-right{
+    color: rgb(20, 19, 19);
+    font-size: 17px;
+    font-weight: bold;
+    height: 29px;
+    padding-left: 13px;
+    line-height: 29px;
+    background-color: #f3f5f6;
+}
+.c-place{
+    border-top: 1px rgb(241, 235, 235) solid;
+    border-bottom: 1px rgb(241, 235, 235) solid;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    /* color: rgb(237, 175, 99); */
+}
+.c-place span{
+    padding: 15px 15px;
+}
+.c-tit{
+    height: 36px;
+    width: 446px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: black;
+    font-family: '宋体';
+    font-weight: bold;
+    line-height: 36px;
+    padding-left: 35px;
+    border-bottom: 2px rgb(187, 184, 184) solid;
+}
+.cl{
+    list-style: none;
+}
+.cl li{
+    height: 50px;
+    width: 460px;
+    /* border: 1px darkcyan solid; */
+}
+.cct{
+    height: 25px;
+    font-weight: 500;
+    text-indent: 10px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    color: rgb(25, 23, 23);
+    /* border: 1px red solid; */
+}
+.cct img{
+    width: 30px;
+    height: 25px;
+}
+.cct1{
+    color: #838586;
+    font-size: 14px;
+    padding-left: 41px;
+}
+.row-area{
+    margin-top: 10px;
+    height: 400px;
+    width: 500px;
+    border-top: 1px gray solid;
+    /* border-bottom: 1px gray solid; */
+}
+.r-da{
+    height: 60px;
+    width: 484px;
+    color: #161718;
+    font-weight: 700;
+    border-bottom: 1px rgb(176, 172, 172) solid;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    padding-left: 16px;
+    text-indent: 10px;
+}
+.r-da img{
+    width: 25px;
+    height: 21px;
+}
+.r-c{
+    font-size: 13px;
+    height: 50px;
+    width: 440px;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-left: 16px;
+    padding-left: 16px;
+    /* border: 1px rgb(20, 19, 19) solid; */
+}
+.r-c a{
+    display: block;
+    
+}
+.r-c img{
+    width: 30px;
+    height: 20px;
+}
+.r-c span{
+    display:block;  
+    margin-right: 10px; 
+    color: gray;
+}
+.r-content{
+    margin-top: 15px;
+    margin-left: 16px;
+    height: 455px;
+    width: 465px;
+    border: 1px rgb(176, 172, 172) solid;
+}
+.mid{
+    /* height: 260px; */
+    margin-top: 12px;
+    padding-left: 15px;
+}
+.mid img{
+    height: 260px;
+    /* width: 1482px; */
+    width: 100%;
+}
+.floor{
+    height: 310px;
+    margin-top: 15px;
+}
+.f-content{
+    height: 320px;
+    width: 1850px;
+    margin-left: 30px;
+    border-top: 3px #86BED8 solid;
+    border-left: 1px rgb(184, 183, 183) solid;
+    border-right: 1px rgb(184, 183, 183) solid;
+    border-bottom: 1px rgb(184, 183, 183) solid;
+}
+.f-title{
+    height: 32px;
+    border-bottom: 1px rgb(184, 183, 183) solid;
+    line-height: 32px;
+    padding-left: 12px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.food{
+    margin-top: 10px;
+    margin-left: 40px;
+    height: 260px;
+    width: 320px;
+    border: 1px rgb(184, 183, 183) solid;
+    float: left;
+}
+.food ol{
+    margin-top: 5px;
+    list-style: none;
+    width: 300px;
+    height: 60px;
+    padding-left: 10px;
+    /* border: 1px #72e1ed solid; */
+}
+.food li{
+    font-size: 14px;
+    color: #414243;
+}
+.t-f{
+    height: 180px;
+    width: 320px;
+    /* border: 1px rebeccapurple solid; */
+}
+.t-f img{
+    height: 180px;
+    width: 320px;
+}
+.floor-ban{
+    height: 40px;
+    background-color: #ecf0f2;
+    margin-top: 20px;
+    line-height: 40px;
+    color: #838586;
+    font-size: 15px;
+    text-align: center;
+}
+.floor-ban span{
+    padding: 5px;
+}
+:root{
+    --window-width:1000px
+}
+.ui-width{
+    width: var(--window-width);
+    margin: 0 auto;
+}
+.min-width{
+    min-width: var(--window-width);
+}
+
+
